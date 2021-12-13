@@ -13,8 +13,8 @@ To fit the thermal conductivity, a uniform 11*11 matrix of surface temperature p
 
 ## Using the code
 
-The optimization algorithm is developed on MATLAB platform which will call the battery model for numerical simulation from COMSOL. The codes are to be run with COMSOL livelink with MATLAB. The codes mainly contain three scripts, i.e., Main_Opt.m, ObjFunc.m and Batterymodel.m, and they are described as follows:
-Main_Opt: Define the nonliear least-squares optimization algroithm for thermal conductivity optimization.
-ObjFunc: Load experimental data and simulation results from battery model to calculate the objective function.
-Batterymodel: battery thermal model developed in COMSOL and exported as .m file, to be run by COMSOL livelink with MATLAB.
+The optimization algorithm is developed on MATLAB platform which will call the battery model for numerical simulation from COMSOL. The codes are to be run with COMSOL livelink with MATLAB. The codes mainly contain three scripts, i.e., `Main_Opt.m`, `ObjFunc.m` and `Batterymodel.m`, and they are described as follows:
+**Main_Opt:** Define the nonliear least-squares optimization algroithm for thermal conductivity optimization.
+**ObjFunc:** Load experimental data and simulation results from battery model to calculate the objective function.
+**Batterymodel:** battery thermal model developed in COMSOL and exported as .m file, to be run by COMSOL livelink with MATLAB.
 In addition to the scripts, a set of experimental data is also provided for fitting.
