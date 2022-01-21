@@ -1,6 +1,6 @@
 # Anisotropic thermal-conductivity characterisation with thermography
 
-In this work, we propose a novel thermal characterisation approach for measuring the anisotropic thermal conductivity of large-format lithium-ion pouch cells with infrared thermography. An optimization algorithm is developed with codes provided below to characterize the three-dimensional thermal conductivity.
+Please see [our paper](https://arxiv.org/abs/2112.09768) that describes this work. We propose a novel thermal characterisation approach for measuring the anisotropic thermal conductivity of large-format lithium-ion pouch cells with infrared thermography. An optimization algorithm is developed with codes provided in this repository to characterize the three-dimensional thermal conductivity.
 
 ## Experiment
 
